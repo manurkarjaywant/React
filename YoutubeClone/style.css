@@ -1,0 +1,87 @@
+body {
+    margin: 0px 0px;
+    background-color: black;
+    color: white;
+}
+
+.navbar-div {
+    margin-top: 0px;
+    background-color: grey;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yt-signature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 100px;
+}
+
+#youtube-logo {
+    padding: 10px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.search-bar {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.profile-details {
+    padding-right: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#profile-details-dropdown {
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.vertical-navbar {
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+
+}
+
+.vertical-navbar a {
+    display: block;
+    padding-left: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.vertical-navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(53, 187, 187);
+    text-align: right;
+    transition: 0.5s ease;
+}
+
+
+.video-list {
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(59, 59, 59);
+}
+#video-picture-link{
+    display: inline-flex;
+}
